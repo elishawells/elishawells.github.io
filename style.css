@@ -18,7 +18,7 @@ display: none;
 
 .img-info h2 {
     padding: 20px 30px 20px;
-    font-family: arial;
+    font-family: Georgia, serif;
     font-size: 50px;
     color: #111;
     line-height: 44px;
@@ -26,7 +26,7 @@ display: none;
 
 .img-info p {
     padding: 0px 30px 20px;
-    font-family: arial;
+    font-family: 'Times New Roman', serif;
     font-size: 16px;
     color: #111;
     line-height: 24px;
@@ -36,11 +36,51 @@ display: none;
     width: 100%;
 }
 
+.bannertxt {
+position: relative;
+text-align: center;
+color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, serif;
+    font-size: 44px;
+  }
+
 @media only screen and (min-width:768px) {
 .banner {
 display: block;
 width: 100%;
-padding-bottom: 30px;
+height: 300px;
+padding: 10px 5px;
 }
 
 .wrapper {
